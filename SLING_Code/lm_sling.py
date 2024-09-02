@@ -87,8 +87,8 @@ for sling_file in sling_files:
 		print(f"*****Running {name}\t{i}/{len(causal_lm_names)}*****")
 
 		model = AutoModelForCausalLM.from_pretrained(name,return_dict_in_generate=True,\
-													 output_scores=True, `trust_remote_code=True)
-		tokenizer = AutoTokenizer.from_pretrained(name)
+													 output_scores=True, trust_remote_code=True)
+		tokenizer = AutoTokenizer.from_pretrained(name,trust_remote_code=True)
 
 		model.eval()
 		model.cuda()

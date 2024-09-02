@@ -35,3 +35,21 @@ Anaphor
 		uer/gpt2-medium-chinese-cluecorpussmall	5.00000	43.40528	36.60361
 		uer/gpt2-chinese-cluecorpussmall	20.00000	40.50581	38.61201
 		uer/gpt2-xlarge-chinese-cluecorpussmall	15.00000	50.67106	41.11450
+Anaphor
+	blocking_literature_f1
+		hfl/chinese-lert-base	25.00000	3.03965	2.52357
+		xlm-roberta-base	10.00000	46.25136	26.27236
+		xlm-roberta-large	45.00000	39.15981	34.02314
+		bert-base-chinese	20.00000	2.26603	1.97846
+		bert-base-multilingual-cased	80.00000	6.97103	8.26547
+		hfl/chinese-pert-base	20.00000	3.42164	2.97432
+		hfl/chinese-pert-large	5.00000	21165.31721	18535.14915
+		Langboat/mengzi-bert-base	25.00000	26.19358	21.81512
+		Langboat/mengzi-bert-base-fin	45.00000	30.75243	29.26116
+		nghuyong/ernie-1.0-base-zh	45.00000	3.21173	3.23537
+		google/mt5-small	80.00000	11.64514	13.08080
+		google/mt5-large	80.00000	111.40990	118.37736
+		uer/gpt2-distil-chinese-cluecorpussmall	40.00000	34.35275	34.15919
+		uer/gpt2-medium-chinese-cluecorpussmall	5.00000	43.40528	36.60361
+		uer/gpt2-chinese-cluecorpussmall	20.00000	40.50581	38.61201
+		uer/gpt2-xlarge-chinese-cluecorpussmall	15.00000	50.67106	41.11450
