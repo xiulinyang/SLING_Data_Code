@@ -8,15 +8,15 @@ parser.add_argument("--metric", type=str, default="perplexity")
 args = parser.parse_args()
 
 # Read in SLING data
-sling_files = glob.glob("SLING_Data/**/*.jsonl", recursive = True)
+sling_files = glob.glob("SLING_Data/Anaphor/*.jsonl", recursive=True)
 
-mp_dict_list = []
 for sling_file in sling_files:
+
 	dir = sling_file.split("/")
 	phenomenon = dir[1]
 	paradigm = dir[2].replace(".jsonl", "")
 	good_sent, bad_sent = [], []
-
+	mp_dict_list = []
 	with open(sling_file, "r") as file:
 		mp_dict_list.extend([json.loads(x) for x in file.read().strip().split("\n")])
 
@@ -32,7 +32,7 @@ for sling_file in sling_files:
 ##############
 # Masked LMs #
 ##############
-	masked_lm_names = ["xlm-roberta-base", "xlm-roberta-large", "bert-base-chinese", \
+	masked_lm_names = ["hfl/chinese-lert-large", "hfl/chinese-lert-base", "xlm-roberta-base", "xlm-roberta-large", "bert-base-chinese", \
 					   "bert-base-multilingual-cased", "hfl/chinese-pert-base", \
 					   "hfl/chinese-pert-large", "Langboat/mengzi-bert-base", \
 					   "Langboat/mengzi-bert-base-fin", "nghuyong/ernie-1.0-base-zh", \
@@ -43,12 +43,12 @@ for sling_file in sling_files:
 	for name in masked_lm_names:
 
 		print(f"*****Running {name}\t{i}/{len(masked_lm_names)}*****")
-
+		# print(good_sent, bad_sent)
 		if name == "google/mt5-small" or name == "google/mt5-large":
 			model = MT5ForConditionalGeneration.from_pretrained(name)
 			tokenizer = T5Tokenizer.from_pretrained(name)
 			model.eval()
-			model.cuda()
+			# model.cuda()
 			accuracy, good_pppl, bad_pppl = run_masked_models(model,tokenizer,\
 															  good_sent,bad_sent,\
 															  func_type='t5',\
@@ -58,7 +58,7 @@ for sling_file in sling_files:
 														 output_scores=True)
 			tokenizer = AutoTokenizer.from_pretrained(name)
 			model.eval()
-			model.cuda()
+			# model.cuda()
 			accuracy,good_pppl,bad_pppl = run_masked_models(model,tokenizer,good_sent,bad_sent,metric=args.metric)
 
 		if args.metric == "perplexity":
@@ -78,30 +78,30 @@ for sling_file in sling_files:
 # Causal LMs #
 ##############
 
-	causal_lm_names = ["uer/gpt2-chinese-cluecorpussmall", "TsinghuaAI/CPM-Generate"]
-
-	i = 1
-
-	for name in causal_lm_names:
-
-		print(f"*****Running {name}\t{i}/{len(causal_lm_names)}*****")
-
-		model = AutoModelForCausalLM.from_pretrained(name,return_dict_in_generate=True,\
-													 output_scores=True)
-		tokenizer = AutoTokenizer.from_pretrained(name)
-
-		model.eval()
-		model.cuda()
-
-		accuracy,good_ppl,bad_ppl = run_causal_models(model,tokenizer,good_sent,bad_sent,metric=args.metric)
-		
-		if args.metric == "perplexity":
-			ave_ppl_good,ave_ppl_bad = AvePplGoodBad(good_ppl,bad_ppl)
-		else:
-			ave_ppl_good,ave_ppl_bad = 0.0, 0.0
-
-		i += 1
-	
-		print(f"\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
-		with open("outputs/result_sling.txt", 'a+') as file:
-			file.write(f"\t\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
+	# causal_lm_names = ["uer/gpt2-chinese-cluecorpussmall", "TsinghuaAI/CPM-Generate"]
+	#
+	# i = 1
+	#
+	# for name in causal_lm_names:
+	#
+	# 	print(f"*****Running {name}\t{i}/{len(causal_lm_names)}*****")
+	#
+	# 	model = AutoModelForCausalLM.from_pretrained(name,return_dict_in_generate=True,\
+	# 												 output_scores=True)
+	# 	tokenizer = AutoTokenizer.from_pretrained(name)
+	#
+	# 	model.eval()
+	# 	model.cuda()
+	#
+	# 	accuracy,good_ppl,bad_ppl = run_causal_models(model,tokenizer,good_sent,bad_sent,metric=args.metric)
+	#
+	# 	if args.metric == "perplexity":
+	# 		ave_ppl_good,ave_ppl_bad = AvePplGoodBad(good_ppl,bad_ppl)
+	# 	else:
+	# 		ave_ppl_good,ave_ppl_bad = 0.0, 0.0
+	#
+	# 	i += 1
+	#
+	# 	print(f"\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
+	# 	with open("outputs/result_sling.txt", 'a+') as file:
+	# 		file.write(f"\t\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")

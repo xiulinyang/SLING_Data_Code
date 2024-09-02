@@ -212,18 +212,18 @@ def get_pprob(model, tokenizer, list_of_sentences, func_type='bert'): # Pseudo P
 
 
 def AveragePerplexity(perplexity_list):
-    neg_log_prob_sum = 0
-    count = 0
+    # neg_log_prob_sum = 0
+    # count = 0
 
-    for i in perplexity_list:
-        neg_log_prob = torch.log(-i)
-        neg_log_prob_sum += neg_log_prob
-        count += 1
+    # for i in perplexity_list:
+    #     neg_log_prob = torch.log(-i)
+    #     neg_log_prob_sum += neg_log_prob
+    #     count += 1
 
-    ave_neg_log_prob = neg_log_prob_sum/count
-    ave_ppl = torch.exp(ave_neg_log_prob)
+    # ave_neg_log_prob = neg_log_prob_sum/count
 
-    return -ave_ppl
+    # ave_ppl = torch.exp(ave_neg_log_prob)
+    return -sum(perplexity_list)/len(perplexity_list)
 
 
 def AvePplGoodBad(good_ppl,bad_ppl):
@@ -272,7 +272,6 @@ def run_masked_models(model, tokenizer, good_sent_list, bad_sent_list, func_type
         bad_sent_pscore = get_pprob(model, tokenizer, bad_sent_list, func_type)
     failed_case_idx = find_failed_cases(good_sent_pscore, bad_sent_pscore)
     accuracy = 1-len(failed_case_idx)/len(good_sent_pscore)
-
     return accuracy, good_sent_pscore, bad_sent_pscore
 
 
