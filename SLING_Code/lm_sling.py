@@ -32,7 +32,7 @@ for sling_file in sling_files:
 ##############
 # Masked LMs #
 ##############
-	masked_lm_names = ["hfl/chinese-lert-large", "hfl/chinese-lert-base", "xlm-roberta-base", "xlm-roberta-large", "bert-base-chinese", \
+	masked_lm_names = ["hfl/chinese-lert-base", "xlm-roberta-base", "xlm-roberta-large", "bert-base-chinese", \
 					   "bert-base-multilingual-cased", "hfl/chinese-pert-base", \
 					   "hfl/chinese-pert-large", "Langboat/mengzi-bert-base", \
 					   "Langboat/mengzi-bert-base-fin", "nghuyong/ernie-1.0-base-zh", \
@@ -48,7 +48,7 @@ for sling_file in sling_files:
 			model = MT5ForConditionalGeneration.from_pretrained(name)
 			tokenizer = T5Tokenizer.from_pretrained(name)
 			model.eval()
-			# model.cuda()
+			model.cuda()
 			accuracy, good_pppl, bad_pppl = run_masked_models(model,tokenizer,\
 															  good_sent,bad_sent,\
 															  func_type='t5',\
@@ -58,7 +58,7 @@ for sling_file in sling_files:
 														 output_scores=True)
 			tokenizer = AutoTokenizer.from_pretrained(name)
 			model.eval()
-			# model.cuda()
+			model.cuda()
 			accuracy,good_pppl,bad_pppl = run_masked_models(model,tokenizer,good_sent,bad_sent,metric=args.metric)
 
 		if args.metric == "perplexity":
