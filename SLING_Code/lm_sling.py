@@ -78,30 +78,30 @@ for sling_file in sling_files:
 # Causal LMs #
 ##############
 
-	# causal_lm_names = ["uer/gpt2-chinese-cluecorpussmall", "TsinghuaAI/CPM-Generate"]
-	#
-	# i = 1
-	#
-	# for name in causal_lm_names:
-	#
-	# 	print(f"*****Running {name}\t{i}/{len(causal_lm_names)}*****")
-	#
-	# 	model = AutoModelForCausalLM.from_pretrained(name,return_dict_in_generate=True,\
-	# 												 output_scores=True)
-	# 	tokenizer = AutoTokenizer.from_pretrained(name)
-	#
-	# 	model.eval()
-	# 	model.cuda()
-	#
-	# 	accuracy,good_ppl,bad_ppl = run_causal_models(model,tokenizer,good_sent,bad_sent,metric=args.metric)
-	#
-	# 	if args.metric == "perplexity":
-	# 		ave_ppl_good,ave_ppl_bad = AvePplGoodBad(good_ppl,bad_ppl)
-	# 	else:
-	# 		ave_ppl_good,ave_ppl_bad = 0.0, 0.0
-	#
-	# 	i += 1
-	#
-	# 	print(f"\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
-	# 	with open("outputs/result_sling.txt", 'a+') as file:
-	# 		file.write(f"\t\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
+	causal_lm_names = ["uer/gpt2-distil-chinese-cluecorpussmall", "uer/gpt2-medium-chinese-cluecorpussmall", "uer/gpt2-chinese-cluecorpussmall","uer/gpt2-xlarge-chinese-cluecorpussmall","THUDM/glm-4-9b-chat", "TsinghuaAI/CPM-Generate"]
+
+	i = 1
+
+	for name in causal_lm_names:
+
+		print(f"*****Running {name}\t{i}/{len(causal_lm_names)}*****")
+
+		model = AutoModelForCausalLM.from_pretrained(name,return_dict_in_generate=True,\
+													 output_scores=True)
+		tokenizer = AutoTokenizer.from_pretrained(name)
+
+		model.eval()
+		model.cuda()
+
+		accuracy,good_ppl,bad_ppl = run_causal_models(model,tokenizer,good_sent,bad_sent,metric=args.metric)
+
+		if args.metric == "perplexity":
+			ave_ppl_good,ave_ppl_bad = AvePplGoodBad(good_ppl,bad_ppl)
+		else:
+			ave_ppl_good,ave_ppl_bad = 0.0, 0.0
+
+		i += 1
+
+		print(f"\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
+		with open("outputs/result_sling.txt", 'a+') as file:
+			file.write(f"\t\t{name}\t{accuracy*100:.5f}\t{ave_ppl_good:.5f}\t{ave_ppl_bad:.5f}\n")
