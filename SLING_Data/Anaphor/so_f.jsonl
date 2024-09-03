@@ -1,40 +1,40 @@
-{"sentence_good": "她告诉他一个关于她自己的秘密。", "sentence_bad": "她告诉他一个关于他的秘密。", "Phenomenon": "so"}
-{"sentence_good": "她寄给他一封关于她自己的信。", "sentence_bad": "她寄给他一封关于他的信。", "Phenomenon": "so"}
-{"sentence_good": "她送给他一本关于她自己的书。", "sentence_bad": "她送给他一本关于他的书。", "Phenomenon": "so"}
-{"sentence_good": "她描述给他一个关于她自己的梦。", "sentence_bad": "她描述给他一个关于他的梦。", "Phenomenon": "so"}
-{"sentence_good": "她解释给他一个关于她自己的决定。", "sentence_bad": "她解释给他一个关于他的决定。", "Phenomenon": "so"}
-{"sentence_good": "她展示给他一幅关于她自己的画。", "sentence_bad": "她展示给他一幅关于他的画。", "Phenomenon": "so"}
-{"sentence_good": "她讲述给他一个关于她自己的故事。", "sentence_bad": "她讲述给他一个关于他的故事。", "Phenomenon": "so"}
-{"sentence_good": "她编写给他一首关于她自己的诗。", "sentence_bad": "她编写给他一首关于他的诗。", "Phenomenon": "so"}
-{"sentence_good": "她演示给他一个关于她自己的技巧。", "sentence_bad": "她演示给他一个关于他的技巧。", "Phenomenon": "so"}
-{"sentence_good": "她描述给他一场关于她自己的经历。", "sentence_bad": "她描述给他一场关于他的经历。", "Phenomenon": "so"}
-{"sentence_good": "她回忆给他一段关于她自己的往事。", "sentence_bad": "她回忆给他一段关于他的往事。", "Phenomenon": "so"}
-{"sentence_good": "她给他看了一张关于她自己的照片。", "sentence_bad": "她给他看了一张关于他的照片。", "Phenomenon": "so"}
-{"sentence_good": "她发给他一条关于她自己的消息。", "sentence_bad": "她发给他一条关于他的消息。", "Phenomenon": "so"}
-{"sentence_good": "她写给他一篇关于她自己的文章。", "sentence_bad": "她写给他一篇关于他的文章。", "Phenomenon": "so"}
-{"sentence_good": "她展示给他一张关于她自己的地图。", "sentence_bad": "她展示给他一张关于他的地图。", "Phenomenon": "so"}
-{"sentence_good": "她讲给他一个关于她自己的笑话。", "sentence_bad": "她讲给他一个关于他的笑话。", "Phenomenon": "so"}
-{"sentence_good": "她传给他一个关于她自己的文件。", "sentence_bad": "她传给他一个关于他的文件。", "Phenomenon": "so"}
-{"sentence_good": "她绘制给他一幅关于她自己的草图。", "sentence_bad": "她绘制给他一幅关于他的草图。", "Phenomenon": "so"}
-{"sentence_good": "她提供给他一项关于她自己的建议。", "sentence_bad": "她提供给他一项关于他的建议。", "Phenomenon": "so"}
-{"sentence_good": "她演唱给他一首关于她自己的歌曲。", "sentence_bad": "她演唱给他一首关于他的歌曲。", "Phenomenon": "so"}
-{"sentence_good": "她设计给他一个关于她自己的项目。", "sentence_bad": "她设计给他一个关于他的项目。", "Phenomenon": "so"}
-{"sentence_good": "她讲述给他一段关于她自己的历史。", "sentence_bad": "她讲述给他一段关于他的历史。", "Phenomenon": "so"}
-{"sentence_good": "她推荐给他一本关于她自己的传记。", "sentence_bad": "她推荐给他一本关于他的传记。", "Phenomenon": "so"}
-{"sentence_good": "她解释给他一个关于她自己的观点。", "sentence_bad": "她解释给他一个关于他的观点。", "Phenomenon": "so"}
-{"sentence_good": "她分享给他一篇关于她自己的论文。", "sentence_bad": "她分享给他一篇关于他的论文。", "Phenomenon": "so"}
-{"sentence_good": "她报告给他一项关于她自己的研究。", "sentence_bad": "她报告给他一项关于他的研究。", "Phenomenon": "so"}
-{"sentence_good": "她送给他一个关于她自己的纪念品。", "sentence_bad": "她送给他一个关于他的纪念品。", "Phenomenon": "so"}
-{"sentence_good": "她展示给他一份关于她自己的简历。", "sentence_bad": "她展示给他一份关于他的简历。", "Phenomenon": "so"}
-{"sentence_good": "她描绘给他一幅关于她自己的肖像。", "sentence_bad": "她描绘给他一幅关于他的肖像。", "Phenomenon": "so"}
-{"sentence_good": "她讨论给他一个关于她自己的话题。", "sentence_bad": "她讨论给他一个关于他的话题。", "Phenomenon": "so"}
-{"sentence_good": "她汇报给他一项关于她自己的成就。", "sentence_bad": "她汇报给他一项关于他的成就。", "Phenomenon": "so"}
-{"sentence_good": "她寄给他一件关于她自己的物品。", "sentence_bad": "她寄给他一件关于他的物品。", "Phenomenon": "so"}
-{"sentence_good": "她翻译给他一篇关于她自己的文章。", "sentence_bad": "她翻译给他一篇关于他的文章。", "Phenomenon": "so"}
-{"sentence_good": "她编排给他一个关于她自己的节目。", "sentence_bad": "她编排给他一个关于他的节目。", "Phenomenon": "so"}
-{"sentence_good": "她演示给他一段关于她自己的舞蹈。", "sentence_bad": "她演示给他一段关于他的舞蹈。", "Phenomenon": "so"}
-{"sentence_good": "她朗读给他一封关于她自己的信件。", "sentence_bad": "她朗读给他一封关于他的信件。", "Phenomenon": "so"}
-{"sentence_good": "她发布给他一条关于她自己的公告。", "sentence_bad": "她发布给他一条关于他的公告。", "Phenomenon": "so"}
-{"sentence_good": "她策划给他一个关于她自己的活动。", "sentence_bad": "她策划给他一个关于他的活动。", "Phenomenon": "so"}
-{"sentence_good": "她陈述给他一份关于她自己的声明。", "sentence_bad": "她陈述给他一份关于他的声明。", "Phenomenon": "so"}
-{"sentence_good": "她发送给他一条关于她自己的通知。", "sentence_bad": "她发送给他一条关于他的通知。", "Phenomenon": "so"}
+{"sentence_good": "她告诉他一个关于她自己的秘密。", "sentence_bad": "她告诉他一个关于他自己的秘密。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她寄给他一封关于她自己的信。", "sentence_bad": "她寄给他一封关于他自己的信。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她送给他一本关于她自己的书。", "sentence_bad": "她送给他一本关于他自己的书。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她描述给他一个关于她自己的梦。", "sentence_bad": "她描述给他一个关于他自己的梦。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她解释给他一个关于她自己的决定。", "sentence_bad": "她解释给他一个关于他自己的决定。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她展示给他一幅关于她自己的画。", "sentence_bad": "她展示给他一幅关于他自己的画。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她讲述给他一个关于她自己的故事。", "sentence_bad": "她讲述给他一个关于他自己的故事。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她编写给他一首关于她自己的诗。", "sentence_bad": "她编写给他一首关于他自己的诗。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她演示给他一个关于她自己的技巧。", "sentence_bad": "她演示给他一个关于他自己的技巧。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她描述给他一场关于她自己的经历。", "sentence_bad": "她描述给他一场关于他自己的经历。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她回忆给他一段关于她自己的往事。", "sentence_bad": "她回忆给他一段关于他自己的往事。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她给他看了一张关于她自己的照片。", "sentence_bad": "她给他看了一张关于他自己的照片。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她发给他一条关于她自己的消息。", "sentence_bad": "她发给他一条关于他自己的消息。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她写给他一篇关于她自己的文章。", "sentence_bad": "她写给他一篇关于他自己的文章。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她展示给他一张关于她自己的地图。", "sentence_bad": "她展示给他一张关于他自己的地图。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她讲给他一个关于她自己的笑话。", "sentence_bad": "她讲给他一个关于他自己的笑话。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她传给他一个关于她自己的文件。", "sentence_bad": "她传给他一个关于他自己的文件。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她绘制给他一幅关于她自己的草图。", "sentence_bad": "她绘制给他一幅关于他自己的草图。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她提供给他一项关于她自己的建议。", "sentence_bad": "她提供给他一项关于他自己的建议。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她演唱给他一首关于她自己的歌曲。", "sentence_bad": "她演唱给他一首关于他自己的歌曲。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她设计给他一个关于她自己的项目。", "sentence_bad": "她设计给他一个关于他自己的项目。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她讲述给他一段关于她自己的历史。", "sentence_bad": "她讲述给他一段关于他自己的历史。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她推荐给他一本关于她自己的传记。", "sentence_bad": "她推荐给他一本关于他自己的传记。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她解释给他一个关于她自己的观点。", "sentence_bad": "她解释给他一个关于他自己的观点。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她分享给他一篇关于她自己的论文。", "sentence_bad": "她分享给他一篇关于他自己的论文。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她报告给他一项关于她自己的研究。", "sentence_bad": "她报告给他一项关于他自己的研究。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她送给他一个关于她自己的纪念品。", "sentence_bad": "她送给他一个关于他自己的纪念品。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她展示给他一份关于她自己的简历。", "sentence_bad": "她展示给他一份关于他自己的简历。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她描绘给他一幅关于她自己的肖像。", "sentence_bad": "她描绘给他一幅关于他自己的肖像。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她讨论给他一个关于她自己的话题。", "sentence_bad": "她讨论给他一个关于他自己的话题。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她汇报给他一项关于她自己的成就。", "sentence_bad": "她汇报给他一项关于他自己的成就。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她寄给他一件关于她自己的物品。", "sentence_bad": "她寄给他一件关于他自己的物品。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她翻译给他一篇关于她自己的文章。", "sentence_bad": "她翻译给他一篇关于他自己的文章。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她编排给他一个关于她自己的节目。", "sentence_bad": "她编排给他一个关于他自己的节目。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她演示给他一段关于她自己的舞蹈。", "sentence_bad": "她演示给他一段关于他自己的舞蹈。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她朗读给他一封关于她自己的信件。", "sentence_bad": "她朗读给他一封关于他自己的信件。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她发布给他一条关于她自己的公告。", "sentence_bad": "她发布给他一条关于他自己的公告。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她策划给他一个关于她自己的活动。", "sentence_bad": "她策划给他一个关于他自己的活动。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她陈述给他一份关于她自己的声明。", "sentence_bad": "她陈述给他一份关于他自己的声明。", "Phenomenon": "subject orientation"}
+{"sentence_good": "她发送给他一条关于她自己的通知。", "sentence_bad": "她发送给他一条关于他自己的通知。", "Phenomenon": "subject orientation"}
