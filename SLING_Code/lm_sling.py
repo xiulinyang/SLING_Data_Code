@@ -17,7 +17,7 @@ for sling_file in sling_files:
 	paradigm = dir[2].replace(".jsonl", "")
 	good_sent, bad_sent = [], []
 	mp_dict_list = []
-	with open(sling_file, "r") as file:
+	with open(sling_file, "r", encoding='utf-8') as file:
 		mp_dict_list.extend([json.loads(x) for x in file.read().strip().split("\n")])
 
 	for mp_dict in mp_dict_list:
