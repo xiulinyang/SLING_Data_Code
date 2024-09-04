@@ -32,7 +32,7 @@ for sling_file in sling_files:
 ##############
 # Masked LMs #
 ##############
-	masked_lm_names = ["hfl/chinese-lert-base", "xlm-roberta-base", "xlm-roberta-large", "bert-base-chinese", \
+	masked_lm_names = ["hfl/chinese-lert-base","hfl/chinese-lert-large", "xlm-roberta-base", "xlm-roberta-large", "bert-base-chinese", \
 					   "bert-base-multilingual-cased", "hfl/chinese-pert-base", \
 					   "hfl/chinese-pert-large", "Langboat/mengzi-bert-base", \
 					   "Langboat/mengzi-bert-base-fin", "nghuyong/ernie-1.0-base-zh", \
