@@ -92,3 +92,116 @@ Anaphor
 		uer/gpt2-xlarge-chinese-cluecorpussmall	50.00000	25.26478	24.80875
 		THUDM/glm-4-9b-chat	50.00000	896.00000	852.00000
 		TsinghuaAI/CPM-Generate	0.00000	8292.25195	4830.27490
+Anaphor
+	blocking_literature_f1
+		hfl/chinese-lert-base	45.00000	2.30259	2.04841
+		xlm-roberta-base	15.00000	14.53586	9.40253
+		xlm-roberta-large	15.00000	12.98327	10.71198
+		bert-base-chinese	10.00000	2.24081	1.79051
+		bert-base-multilingual-cased	5.00000	3.26616	2.56003
+		hfl/chinese-pert-base	55.00000	2.09911	2.06597
+		hfl/chinese-pert-large	10.00000	22289.59539	19160.61883
+		Langboat/mengzi-bert-base	40.00000	12.16907	12.88160
+		Langboat/mengzi-bert-base-fin	20.00000	28.93251	22.35915
+		nghuyong/ernie-1.0-base-zh	20.00000	2.26126	1.92147
+		google/mt5-small	35.00000	10.78949	8.81734
+		google/mt5-large	20.00000	138.24693	131.76723
+		uer/gpt2-distil-chinese-cluecorpussmall	45.00000	23.52067	23.51601
+		uer/gpt2-medium-chinese-cluecorpussmall	15.00000	23.36213	21.34138
+		uer/gpt2-chinese-cluecorpussmall	55.00000	19.02376	19.15444
+		uer/gpt2-xlarge-chinese-cluecorpussmall	50.00000	25.26478	24.80875
+		THUDM/glm-4-9b-chat	50.00000	896.00000	852.00000
+		TsinghuaAI/CPM-Generate	0.00000	8292.25195	4830.27490
+Anaphor
+	out_verb
+		hfl/chinese-lert-base	50.00000	2.31815	1.98126
+		xlm-roberta-base	50.00000	6.39457	5.13072
+		xlm-roberta-large	42.50000	11.56439	6.93113
+		bert-base-chinese	50.00000	1.76066	1.58622
+		bert-base-multilingual-cased	50.00000	2.04187	1.91685
+		hfl/chinese-pert-base	50.00000	2.42746	2.08520
+		hfl/chinese-pert-large	67.50000	24339.92526	25733.67708
+		Langboat/mengzi-bert-base	20.00000	36.87247	23.24941
+		Langboat/mengzi-bert-base-fin	32.50000	69.65240	50.34793
+		nghuyong/ernie-1.0-base-zh	50.00000	2.25330	1.92995
+		google/mt5-small	92.50000	6.26875	6.89594
+		google/mt5-large	50.00000	98.76940	89.18672
+		uer/gpt2-distil-chinese-cluecorpussmall	0.00000	37.28335	30.43434
+		uer/gpt2-medium-chinese-cluecorpussmall	2.50000	30.13871	24.04501
+		uer/gpt2-chinese-cluecorpussmall	0.00000	26.33813	21.13719
+		uer/gpt2-xlarge-chinese-cluecorpussmall	2.50000	39.88054	29.98493
+		THUDM/glm-4-9b-chat	55.00000	788.00000	896.00000
+		TsinghuaAI/CPM-Generate	80.00000	10165.95508	10465.78711
+Anaphor
+	blocking_literature_m1
+		hfl/chinese-lert-base	50.00000	2.22195	2.08445
+		xlm-roberta-base	25.00000	15.32611	11.11711
+		xlm-roberta-large	25.00000	13.68167	11.91375
+		bert-base-chinese	20.00000	2.17842	1.78903
+		bert-base-multilingual-cased	0.00000	2.97096	2.23162
+		hfl/chinese-pert-base	55.00000	2.02817	2.04668
+		hfl/chinese-pert-large	15.00000	22148.23816	20939.55088
+		Langboat/mengzi-bert-base	60.00000	11.56068	13.08273
+		Langboat/mengzi-bert-base-fin	15.00000	28.21244	22.91390
+		nghuyong/ernie-1.0-base-zh	25.00000	2.07360	1.87842
+		google/mt5-small	20.00000	10.98257	9.04979
+		google/mt5-large	35.00000	140.80744	134.08058
+		uer/gpt2-distil-chinese-cluecorpussmall	80.00000	21.77702	22.59387
+		uer/gpt2-medium-chinese-cluecorpussmall	25.00000	21.30695	19.54332
+		uer/gpt2-chinese-cluecorpussmall	50.00000	16.96636	17.09752
+		uer/gpt2-xlarge-chinese-cluecorpussmall	40.00000	25.05569	24.35332
+		THUDM/glm-4-9b-chat	50.00000	980.00000	888.00000
+		TsinghuaAI/CPM-Generate	0.00000	8685.41211	5164.91650
+Anaphor
+	natural_lb_m
+		hfl/chinese-lert-base	90.00000	3.73280	5.36653
+		xlm-roberta-base	68.00000	23.56656	40.51422
+		xlm-roberta-large	90.00000	17.67375	40.35780
+		bert-base-chinese	88.00000	3.15307	4.31195
+		bert-base-multilingual-cased	84.00000	13.47607	20.84896
+		hfl/chinese-pert-base	90.00000	5.91387	7.98187
+		hfl/chinese-pert-large	10.00000	19723.22329	18062.96037
+		Langboat/mengzi-bert-base	92.00000	32.87562	53.44374
+		Langboat/mengzi-bert-base-fin	90.00000	54.60173	90.56870
+		nghuyong/ernie-1.0-base-zh	90.00000	3.76853	5.30254
+		google/mt5-small	18.00000	16.23915	14.56105
+		google/mt5-large	78.00000	125.09341	132.53750
+		uer/gpt2-distil-chinese-cluecorpussmall	86.00000	62.36474	71.06758
+		uer/gpt2-medium-chinese-cluecorpussmall	88.00000	38.73577	44.20877
+		uer/gpt2-chinese-cluecorpussmall	88.00000	48.54252	56.50072
+		uer/gpt2-xlarge-chinese-cluecorpussmall	96.00000	37.65184	46.30561
+		THUDM/glm-4-9b-chat	96.00000	1944.00000	3056.00000
+		TsinghuaAI/CPM-Generate	68.00000	6662.07715	6766.21338
+Anaphor
+	in_verb
+		hfl/chinese-lert-base	7.50000	2.64714	2.23055
+		xlm-roberta-base	2.50000	7.74715	6.12141
+		xlm-roberta-large	20.00000	7.88690	7.19779
+		bert-base-chinese	5.00000	1.94916	1.67627
+		bert-base-multilingual-cased	52.50000	2.15070	2.24683
+		hfl/chinese-pert-base	0.00000	2.51009	1.93404
+		hfl/chinese-pert-large	37.50000	27470.23723	25093.83868
+		Langboat/mengzi-bert-base	70.00000	41.78237	56.59447
+		Langboat/mengzi-bert-base-fin	45.00000	96.31070	110.62177
+		nghuyong/ernie-1.0-base-zh	2.50000	2.59845	2.17452
+		google/mt5-small	10.00000	7.63731	6.91609
+		google/mt5-large	20.00000	104.19883	98.56113
+		uer/gpt2-distil-chinese-cluecorpussmall	97.50000	28.58240	37.73782
+		uer/gpt2-medium-chinese-cluecorpussmall	95.00000	26.15627	30.91426
+		uer/gpt2-chinese-cluecorpussmall	100.00000	22.68279	28.52729
+		uer/gpt2-xlarge-chinese-cluecorpussmall	100.00000	27.45890	36.10286
+		THUDM/glm-4-9b-chat	52.50000	1096.00000	1040.00000
+		TsinghuaAI/CPM-Generate	5.00000	11775.56934	11407.08789
+Anaphor
+	animate
+		hfl/chinese-lert-base	100.00000	1.47017	2.09534
+		xlm-roberta-base	100.00000	2.73283	5.81525
+		xlm-roberta-large	100.00000	2.80911	5.98999
+		bert-base-chinese	100.00000	1.28873	1.82655
+		bert-base-multilingual-cased	100.00000	1.44954	1.84619
+		hfl/chinese-pert-base	100.00000	1.41204	2.12919
+		hfl/chinese-pert-large	75.00000	24056.98385	25853.66143
+		Langboat/mengzi-bert-base	97.50000	14.01620	18.79585
+		Langboat/mengzi-bert-base-fin	97.50000	36.57658	46.16107
+		nghuyong/ernie-1.0-base-zh	100.00000	1.33198	2.01586
+		google/mt5-small	25.00000	9.10923	6.64742
